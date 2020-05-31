@@ -1,0 +1,92 @@
+.rpns-wrapper {
+  border: solid 1px black;
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  border: solid 1px red;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.computer-1 {
+  width: 100%;  
+}
+
+.computer-2 {
+  width: 50%;  
+}
+
+.computer-3 {
+  width: 33.33%;  
+}
+
+.computer-4 {
+  width: 25%;  
+}
+
+.computer-5 {
+  width: 20%;  
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+/* ipad */
+@media only screen and (max-width: 768px) {
+  .ipad-1 {
+    width: 100%;  
+  }
+  
+  .ipad-2 {
+    width: 50%;  
+  }
+  
+  .ipad-3 {
+    width: 33.33%;  
+  }
+  
+  .ipad-4 {
+    width: 25%;  
+  }
+  
+  .ipad-5 {
+    width: 20%;  
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 500px) {
+  .mobile-1 {
+    width: 100%;  
+  }
+  
+  .mobile-2 {
+    width: 50%;  
+  }
+  
+  .mobile-3 {
+    width: 33.33%;  
+  }
+  
+  .mobile-4 {
+    width: 25%;  
+  }
+  
+  .mobile-5 {
+    width: 20%;  
+  }
+}
+

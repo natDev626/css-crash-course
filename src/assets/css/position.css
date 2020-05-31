@@ -1,0 +1,35 @@
+.pos-wrapper {
+  border: solid 1px white;
+  margin-top: 20px;
+  background-color: cornflowerblue;
+  box-sizing: border-box;
+  /* width: 100%; */
+  /* overflow: hidden; */
+  display: flex;  
+  /* position: relative; */
+}
+
+.pos-wrapper h1 {
+  border: solid 2px red;
+  padding: 20px;
+  width: 250px;
+  /* box-sizing: border-box; */
+}
+
+.pos-1 {
+  border: solid 1px red;
+  position: relative;
+  /* margin-top: 50px; */
+  padding: 10px;
+  background-color: cyan;
+  z-index: 0;
+}
+
+.pos-2 {
+  border: solid 1px blue;
+  /* position: relative; */
+  padding: 10px;
+  /* top: -25px; */
+  /* left: 100px; */
+  background-color: burlywood;  
+}
